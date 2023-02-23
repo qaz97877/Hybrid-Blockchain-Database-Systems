@@ -28,8 +28,8 @@ cp ../BigchainDB/driver.py .local/lib/python3.6/site-packages/bigchaindb_driver/
 # Go 1.15.6
 mkdir -p temp
 cd temp
-wget https://golang.org/dl/go1.15.6.linux-amd64.tar.gz
-tar xf go1.15.6.linux-amd64.tar.gz
+wget https://golang.google.cn/dl/go1.20.1.linux-amd64.tar.gz
+tar xf go1.20.1.linux-amd64.tar.gz
 mkdir gopath
 GOROOT=`pwd`/go
 GOPATH=`pwd`/gopath
